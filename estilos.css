@@ -104,14 +104,15 @@ header .foto{
 
 
 .SERVICIOS div{
-    display: inline-block;
-    width: 100%;
-    margin: 20px;
+    padding-bottom: 30px;
     background-color: aquamarine;
-    
 }
-.SERVICIOS .imagenes{
-    text-align: center;
+.servicios-contenido{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    flex-wrap: wrap; 
 }
 
 .ACERCA_DE_MI{
@@ -129,13 +130,30 @@ header .foto{
     margin: 20px;
     background-color: beige;
 }.MI_PORTAFOLIO{
-    display: inline-block;
-    width: 100%;
-    margin: 20px;
-    background-color: beige;
+    
+    background: #f2f2f2;
+    padding-bottom: 30px;
 }
 .MI_PORTAFOLIO img{
     text-align: center;
+}
+
+.portafolio-contenido{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    flex-wrap: wrap;  
+}
+
+.img-portafilio{
+    
+    width: 70%;
+    text-align: center;
+}
+.img-portafilio img{
+    
+    width: 90%;
 }
 .flechaizquierda {
     background-color: gray;

@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    
+    font-style: normal
 }
 nav{
     
@@ -37,8 +37,16 @@ h1 {
     margin-bottom: 100px;  
     
 }
+.containerhome{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    display: block;
+    
+}
+
 .HOME{
-      
+    display: block;
     float: right;
     
     width: 50%;
@@ -54,15 +62,23 @@ header .HOME h1{
     color: #ff4f6f;           
     
 }
-.containerhome{
-    width: 100%;
-    height: 100%;
-    margin: 10px;
+
+.redes img{
+    
+    width: 6%;
+    border-radius: 50px;
+    margin-right: 5%;
+    margin-top: 20px;
     
 }
-.tituloservicios{
-    width: 100%;
+.linea{
+    color: aliceblue;
+    margin-bottom: 30px;
+    background-color: #ff4f6f;
+    display: inline;
+    
 }
+
 header .foto{
     
     font-size: 90px;
@@ -93,76 +109,57 @@ header .foto{
     text-align: center;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    margin-top: 20px;
+    
 }
 .contactame h5{
     
     display: contents;
     text-align: center;
     color: aliceblue;
-    margin: 100px;
+    
+}
+.SERVICIOS{
+    display: block;
+    margin: 20px;
+}
+.titulo_servicios{
+    width: 100%;
+    display: block;
+    font-size: 50px;
+    margin-left: 50px;
 }
 
-
 .SERVICIOS div{
-    padding-bottom: 30px;
-    background-color: aquamarine;
+    padding-bottom: 40px;    
 }
 .servicios-contenido{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;  
+    margin: 10px;
+    font-size: 30px; 
+      
+}
+.servicios-contenido img{
+    width: 40%;
     align-items: center;
-    margin: 40px;
-    flex-wrap: wrap; 
-}
-
-.ACERCA_DE_MI{
-    display: inline-block;
-    width: 100%;
-    margin: 20px;
-    background-color: beige;
-}
-.ACERCA_DE_MI div div{
-    text-align: center;
-}
-.MIS_HABILIDADES{
-    display: inline-block;
-    width: 100%;
-    margin: 20px;
-    background-color: beige;
-}.MI_PORTAFOLIO{
+    margin-top: 50px;
     
-    background: #f2f2f2;
-    padding-bottom: 30px;
 }
-.MI_PORTAFOLIO img{
+.servicios-contenido div{
+    background-color: aliceblue;
+    margin: 10px;
     text-align: center;
-}
-
-.portafolio-contenido{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 40px;
-    flex-wrap: wrap;  
-}
-
-.img-portafilio{
-    
-    width: 70%;
-    text-align: center;
-}
-.img-portafilio img{
-    
-    width: 90%;
+      
 }
 .flechaizquierda {
     background-color: gray;
-    width: 30px;
+    width: 70px;
     border-radius: 50px;
 }
 .flechaderecha {
     background-color: gray;
-    width: 30px;
+    width: 70px;
     border-radius: 50px;
 }
 .flechaizquierda > img:hover{
@@ -174,17 +171,155 @@ header .foto{
     text-decoration: underline;
 }
 
-.CONTACTO{
-    display: inline-block;
+.ACERCA_DE_MI{
+    display: block;
     width: 100%;
     margin: 20px;
-    background-color: beige;
+    background-color: #ffff;
+    padding-bottom: 40px;
 }
-.CONTACTO div{
-    align-content: center;
+.titulo_acerca_de_mi{
+    width: 100%;
+    display: block;
+    font-size: 50px;
+    margin-left: 50px;
+    
+}
+.ACERCA_DE_MI p{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.parrafo_acerca_de_mi{
+    font-size: 40px;
+    display: flex;
+}
+.parrafo_acerca_de_mi img{
+    float: right;
+    display: block;
+    margin-right: 10px;
+}
+.ACERCA_DE_MI .contenido{
+    display:flex;
+    justify-content: space-evenly;  
+    margin: 10px;
+    font-size: 30px; 
+}
+.ACERCA_DE_MI .contenido img{
+    width: 40%;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.ACERCA_DE_MI .contenido div{
+    background-color: aliceblue;
+    margin: 10px;
+    width: 30%;
     text-align: center;
+    
 }
-.CONTACTO div div{
-    margin: 40px;
+.MIS_HABILIDADES{
+    display: block;
+    width: 95%;
+    margin: 20px;
+    background-color: #ffff;
+    align-items: center;
+}
+.titulo-habilidades{
+    width: 100%;
+    display: block;
+    font-size: 50px;
+    margin-left: 50px;
+}
+.contenido-habilidades .cuadro{
+    display: block;
+}
+.contenido-habilidades .text{
+    background-color: #34b0be;
+    display: list-item;
+}
+.contenido-habilidades div h1{
+    align-items: center;
+    color: #34b0be;
+    font-size: 60px;
+}
+.contenido-habilidades div h2{
+    font-size: 80px;
+    color: #34b0be;
+}
+.contenido-habilidades h3{
+    text-align: left;
+}
+.MI_PORTAFOLIO{
+    display: block;
+    background-color: #ffff;
+    padding-bottom: 30px;
+}
+.titulo-portafolio{
+    width: 100%;
+    display: block;
+    font-size: 50px;
+    margin-left: 50px;
+}
+.MI_PORTAFOLIO img{
+    text-align: center;
+    width: 100%;
+    
+}
+.portafolio-contenido{
+    display:flex;
+    justify-content: space-evenly;  
+    margin: 10px;
+    margin-top: 200px;
+    font-size: 25px;
+    margin-right: 100px;
+}
+
+.portafolio-contenido div{
+    background-color: aliceblue;
+    width: 30%;    
+    margin-right: 10px;
+    
+}
+.portafolio-contenido h3{
+    margin: 10px;
+    margin-bottom: 60px;
+}
+
+
+.CONTACTO{
+    display: block;
+    margin: 20px;
+}
+.titulo-contacto{
+    width: 100%;
+    display: block;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.contenido-contacto{
+    
+    display:flex;
+    justify-content: space-evenly;  
+    margin: 10px;
+    margin-top: 200px;
+    font-size: 25px; 
+    
+      
+}
+.contenido-contacto img{
+    width: 60%;
+    margin-bottom: 20px;
+    
+    
+}
+.contenido-contacto div{
+    background-color: aliceblue;
+    text-align: center;
+    margin: 20px;
+    width: 20%;
+}
+.pie-pagina{
+    margin: 100px;
     text-align: center;
 }

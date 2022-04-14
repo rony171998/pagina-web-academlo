@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-style: normal
+    font-family: 'Rubik', sans-serif;
 }
 nav{
     
@@ -74,8 +74,8 @@ header .HOME h1{
 .linea{
     color: aliceblue;
     margin-bottom: 30px;
-    background-color: #ff4f6f;
-    display: inline;
+    
+    display: contents;
     
 }
 
@@ -147,18 +147,19 @@ header .foto{
     
 }
 .servicios-contenido div{
-    background-color: aliceblue;
+    background-color: #ffff;
     margin: 10px;
     text-align: center;
+    box-shadow: 0px 10px 10px #e5e5e5;
       
 }
 .flechaizquierda {
-    background-color: gray;
+    background-color: #e5e5e5;
     width: 70px;
     border-radius: 50px;
 }
 .flechaderecha {
-    background-color: gray;
+    background-color: #e5e5e5;
     width: 70px;
     border-radius: 50px;
 }
@@ -211,10 +212,11 @@ header .foto{
     
 }
 .ACERCA_DE_MI .contenido div{
-    background-color: aliceblue;
+    background-color: #ffff;
     margin: 10px;
     width: 30%;
     text-align: center;
+    box-shadow: 0px 10px 10px #e5e5e5;
     
 }
 .MIS_HABILIDADES{
@@ -230,12 +232,42 @@ header .foto{
     font-size: 50px;
     margin-left: 50px;
 }
-.contenido-habilidades .cuadro{
+.contenido-habilidades{
     display: block;
+    margin: 80px;
 }
+.contenido-linea{
+    
+    margin: 10px;
+    display: flex;
+}
+.cuadro{
+    display: block;
+    border-top-style: solid;
+    color: #34b0be;
+    box-shadow: 0px 10px 10px #e5e5e5;
+    padding-right: 100px;
+    
+    
+    
+}
+
+.cuadro h2{
+    display: flexbox;
+}
+
+.contenido-habilidades .cuadro{
+    
+    margin-bottom: 10px;
+    width: 10%;
+    
+}
+
 .contenido-habilidades .text{
-    background-color: #34b0be;
-    display: list-item;
+    margin: 30px;
+    margin-left: 100px;
+    font-size: 25px;
+    width: 90%;
 }
 .contenido-habilidades div h1{
     align-items: center;
@@ -275,9 +307,10 @@ header .foto{
 }
 
 .portafolio-contenido div{
-    background-color: aliceblue;
+    background-color: #ffff;
     width: 30%;    
     margin-right: 10px;
+    box-shadow: 0px 10px 10px #e5e5e5;
     
 }
 .portafolio-contenido h3{
@@ -314,10 +347,11 @@ header .foto{
     
 }
 .contenido-contacto div{
-    background-color: aliceblue;
+    background-color: #ffff;
     text-align: center;
     margin: 20px;
     width: 20%;
+    box-shadow: 0px 10px 10px #e5e5e5;
 }
 .pie-pagina{
     margin: 100px;

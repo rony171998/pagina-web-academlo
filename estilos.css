@@ -7,7 +7,8 @@
 nav{
     
     text-align: right;
-    padding: 30px 50px 0 0;
+    padding: 30px 50px 10px 0;
+    box-shadow: 0px 10px 10px #e5e5e5;       
      
 }
 
@@ -23,7 +24,8 @@ nav > a{
 }
 
 nav > a:hover{
-    text-decoration: underline;
+    
+    color: #34b0be;
 }
 h1 {
     color: #ff4f6f;
@@ -62,7 +64,14 @@ header .HOME h1{
     color: #ff4f6f;           
     
 }
-
+.redes{
+    
+    border-bottom-style: solid ;
+    border-color: #e5e5e5 ;
+    width: 90%;
+    margin-bottom: 60px;
+    
+}
 .redes img{
     border-width: 1px;
     border-style: solid;
@@ -72,6 +81,7 @@ header .HOME h1{
     border-radius: 50px;
     margin-right: 5%;
     margin-top: 20px;
+    
     
     
 }
@@ -126,10 +136,11 @@ header .foto{
 .SERVICIOS{
     display: block;
     margin: 20px;
+    margin-top: 50px;
 }
 .titulo_servicios{
     width: 100%;
-    display: block;
+    display: flex;
     font-size: 50px;
     margin-left: 50px;
 }
@@ -159,19 +170,23 @@ header .foto{
 }
 .flechaizquierda {
     background-color: #e5e5e5;
-    width: 70px;
-    border-radius: 50px;
+    width: 110px;
+    border-radius: 100%;
+    margin-left: 150px;
+    background-image: ;
 }
+
 .flechaderecha {
     background-color: #e5e5e5;
-    width: 70px;
-    border-radius: 50px;
+    width: 110px;
+    border-radius: 100%;
+    margin-left: 50px;
 }
-.flechaizquierda > img:hover{
+.flechaizquierda:hover{
     background-color: #ff4f6f;
     text-decoration: underline;
 }
-.flechaderecha > img:hover{
+.flechaderecha:hover{
     background-color: #ff4f6f;
     text-decoration: underline;
 }

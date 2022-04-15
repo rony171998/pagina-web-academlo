@@ -5,10 +5,16 @@
     font-family: 'Rubik', sans-serif;
 }
 nav{
-    
+   
     text-align: right;
     padding: 30px 50px 10px 0;
-    box-shadow: 0px 10px 10px #e5e5e5;       
+    box-shadow: 0px 10px 10px #e5e5e5;
+    display: block;
+    position: fixed;
+    background-color: #ffff;
+    right: 0;
+    width: 100%;
+       
      
 }
 
@@ -28,6 +34,7 @@ nav > a:hover{
     color: #34b0be;
 }
 h1 {
+    
     color: #ff4f6f;
     padding: 12px;
      
@@ -110,7 +117,7 @@ header .foto{
     right: 0;
     left: 5%;
     bottom: 0;
-    top: 27.4%;
+    top: 23%;
     
     width: 50%;
     height: 100%;
@@ -124,6 +131,7 @@ header .foto{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     margin-top: 20px;
+    margin-bottom: 100px;
     
 }
 .contactame h5{
@@ -136,13 +144,15 @@ header .foto{
 .SERVICIOS{
     display: block;
     margin: 20px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .titulo_servicios{
     width: 100%;
     display: flex;
     font-size: 50px;
     margin-left: 50px;
+    padding-top: 100px;
+    
 }
 
 .SERVICIOS div{
@@ -203,6 +213,8 @@ header .foto{
     display: block;
     font-size: 50px;
     margin-left: 50px;
+    padding-top: 100px;
+    
     
 }
 .ACERCA_DE_MI p{
@@ -250,6 +262,7 @@ header .foto{
     display: block;
     font-size: 50px;
     margin-left: 50px;
+    padding-top: 100px;
 }
 .contenido-habilidades{
     display: block;
@@ -310,6 +323,7 @@ header .foto{
     display: block;
     font-size: 50px;
     margin-left: 50px;
+    padding-top: 100px;
 }
 .MI_PORTAFOLIO img{
     text-align: center;
@@ -347,6 +361,7 @@ header .foto{
     display: block;
     font-size: 50px;
     margin-left: 50px;
+    padding-top: 100px;
 }
 
 .contenido-contacto{

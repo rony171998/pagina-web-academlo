@@ -3,17 +3,21 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    
+}
+body{
+    font-size: 18px;
 }
 nav{
    
     text-align: right;
-    padding: 30px 50px 10px 0;
-    box-shadow: 0px 10px 10px #e5e5e5;
+    padding: 1.875em 3.125em 0.625em 0;
+    box-shadow: 0em 0.625em 0.625em #e5e5e5;
     display: block;
     position: fixed;
     background-color: #ffff;
-    right: 0;
-    width: 100%;
+    right: 50;
+    width: 100vmax;
        
      
 }
@@ -23,9 +27,9 @@ nav > a{
     
     font-weight: 300;
     text-decoration: none;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    padding: 20px;  
+    margin-right: 0.625em;
+    margin-bottom: 1.25em;
+    padding: 1.25em;  
     
 }
 
@@ -34,22 +38,27 @@ nav > a:hover{
     color: #34b0be;
 }
 h1 {
-    
+    font-size: 150px;
     color: #ff4f6f;
-    padding: 12px;
+    padding: 0.75rem;
+    font: bold;
      
+}
+h2{
+    font-size: 50px;
+    font: bold;
 }
 .malla{
     display: flex;
     width: 10%;  
-    margin-left: 100px;
-    margin-bottom: 100px;  
+    margin-left: 6.25em;
+    margin-bottom: 6.25em;  
     
 }
 .containerhome{
-    width: 100%;
-    height: 100%;
-    margin: 10px;
+    width: 90vmax;
+    height: 50vmax;
+    margin: 0.625em;
     display: block;
     
 }
@@ -58,25 +67,20 @@ h1 {
     display: block;
     float: right;
     
-    width: 50%;
+    width: 42vw;
+    height: 50vmax;
     text-align: left;
-    font-size: 90px;
-}
-.HOME div div{
-    border-color: blue;
-
-}
-header .HOME h1{   
-    nav-right: auto;
-    color: #ff4f6f;           
     
+}
+.HOME h2{
+    font-size: 150px;
 }
 .redes{
     
     border-bottom-style: solid ;
     border-color: #e5e5e5 ;
     width: 90%;
-    margin-bottom: 60px;
+    margin-bottom: 3.75em;
     
 }
 .redes img{
@@ -85,53 +89,33 @@ header .HOME h1{
 
     color: #34b0be;
     width: 8%;
-    border-radius: 50px;
+    border-radius: 3.125em;
     margin-right: 5%;
-    margin-top: 20px;
-    
-    
-    
-}
-.linea{
-    color: aliceblue;
-    margin-bottom: 30px;
-    
-    display: contents;
+    margin-top: 1.25em;
     
 }
 
-header .foto{
+.foto{
     
-    font-size: 90px;
-    width: 50%;
-    
-    padding-right: 25px; 
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top: 27%;
-      
+    width: 48vmax;
+    padding-right: 1.5625em; 
 }
 .mifoto{
     position: absolute;
-    right: 0;
-    left: 5%;
-    bottom: 0;
-    top: 23%;
-    
-    width: 50%;
-    height: 100%;
-    
+    left: 5vmax; 
+    top: 12.5vmax;
+    width: 45vmax;
+    height: 50vmax;      
 }
 
 .contactame{
     background-color: #ff4f6f;
     width: 55%;
     text-align: center;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    margin-top: 20px;
-    margin-bottom: 100px;
+    border-top-right-radius: 3.125em;
+    border-bottom-right-radius: 3.125em;
+    margin-top: 1.25em;
+    margin-bottom: 6.25em;
     
 }
 .contactame h5{
@@ -143,54 +127,54 @@ header .foto{
 }
 .SERVICIOS{
     display: block;
-    margin: 20px;
-    margin-top: 100px;
+    margin: 1.25em;
+    margin-top: 6.25em;
+    width: 90vmax;
 }
 .titulo_servicios{
-    width: 100%;
+    
     display: flex;
-    font-size: 50px;
-    margin-left: 50px;
-    padding-top: 100px;
+    margin-left: 3.125em;
+    padding-top: 6.25em;
     
 }
 
 .SERVICIOS div{
-    padding-bottom: 40px;    
+    padding-bottom: 2.5em;    
 }
 .servicios-contenido{
     display:flex;
     justify-content: space-evenly;  
-    margin: 10px;
-    font-size: 30px; 
+    margin: 0.625em;
+    
       
 }
 .servicios-contenido img{
     width: 40%;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 3.125em;
     
 }
 .servicios-contenido div{
     background-color: #ffff;
-    margin: 10px;
+    margin: 0.625em;
     text-align: center;
-    box-shadow: 0px 10px 10px #e5e5e5;
+    box-shadow: 0em 0.625em 0.625em #e5e5e5;
       
 }
 .flechaizquierda {
     background-color: #e5e5e5;
-    width: 110px;
+    width: 6.875em;
     border-radius: 100%;
-    margin-left: 150px;
+    margin-left: 9.375em;
     background-image: ;
 }
 
 .flechaderecha {
     background-color: #e5e5e5;
-    width: 110px;
+    width: 6.875em;
     border-radius: 100%;
-    margin-left: 50px;
+    margin-left: 3.125em;
 }
 .flechaizquierda:hover{
     background-color: #ff4f6f;
@@ -203,84 +187,84 @@ header .foto{
 
 .ACERCA_DE_MI{
     display: block;
-    width: 100%;
-    margin: 20px;
+    width: 90vmax;
+    margin: 1.25em;
     background-color: #ffff;
-    padding-bottom: 40px;
+    padding-bottom: 2.5em;
 }
 .titulo_acerca_de_mi{
-    width: 100%;
+    width: 90vmax;
     display: block;
-    font-size: 50px;
-    margin-left: 50px;
-    padding-top: 100px;
+    
+    margin-left: 3.125em;
+    padding-top: 6.25em;
     
     
 }
 .ACERCA_DE_MI p{
-    font-size: 30px;
-    margin-left: 20px;
+    
+    margin-left: 1.25em;
 }
 .parrafo_acerca_de_mi{
-    font-size: 40px;
+    
     display: flex;
 }
 .parrafo_acerca_de_mi img{
     float: right;
     display: block;
-    margin-right: 10px;
+    margin-right: 0.625em;
 }
 .ACERCA_DE_MI .contenido{
     display:flex;
     justify-content: space-evenly;  
-    margin: 10px;
-    font-size: 30px; 
+    margin: 0.625em;
+    
 }
 .ACERCA_DE_MI .contenido img{
     width: 40%;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 3.125em;
     
 }
 .ACERCA_DE_MI .contenido div{
     background-color: #ffff;
-    margin: 10px;
+    margin: 0.625em;
     width: 30%;
     text-align: center;
-    box-shadow: 0px 10px 10px #e5e5e5;
+    box-shadow: 0em 0.625em 0.625em #e5e5e5;
     
 }
 .MIS_HABILIDADES{
-    display: block;
-    width: 95%;
-    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vmax;
+    margin: 1.25em;
     background-color: #ffff;
     align-items: center;
+    min-width: 15.625em;
 }
 .titulo-habilidades{
-    width: 100%;
+    width: 90vmax;
     display: block;
-    font-size: 50px;
-    margin-left: 50px;
-    padding-top: 100px;
+    
+    margin-left: 3.125em;
+    padding-top: 6.25em;
 }
 .contenido-habilidades{
     display: block;
-    margin: 80px;
+    margin: 5em;
 }
 .contenido-linea{
     
-    margin: 10px;
+    margin: 0.625em;
     display: flex;
 }
 .cuadro{
     display: block;
     border-top-style: solid;
     color: #34b0be;
-    box-shadow: 0px 10px 10px #e5e5e5;
-    padding-right: 100px;
-    
-    
+    box-shadow: 0em 0.625em 0.625em #e5e5e5;
+    padding-right: 6.25em;     
     
 }
 
@@ -290,24 +274,24 @@ header .foto{
 
 .contenido-habilidades .cuadro{
     
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
     width: 10%;
     
 }
 
 .contenido-habilidades .text{
-    margin: 30px;
-    margin-left: 100px;
-    font-size: 25px;
+    margin: 1.875em;
+    margin-left: 6.25em;
+    
     width: 90%;
 }
 .contenido-habilidades div h1{
     align-items: center;
     color: #34b0be;
-    font-size: 60px;
+    
 }
 .contenido-habilidades div h2{
-    font-size: 80px;
+    
     color: #34b0be;
 }
 .contenido-habilidades h3{
@@ -316,14 +300,16 @@ header .foto{
 .MI_PORTAFOLIO{
     display: block;
     background-color: #ffff;
-    padding-bottom: 30px;
+    padding-bottom: 1.875em;
+    width: 90vmax;
+    
 }
 .titulo-portafolio{
-    width: 100%;
+    width: 90vmax;
     display: block;
-    font-size: 50px;
-    margin-left: 50px;
-    padding-top: 100px;
+    
+    margin-left: 3.125em;
+    padding-top: 6.25em;
 }
 .MI_PORTAFOLIO img{
     text-align: center;
@@ -333,61 +319,88 @@ header .foto{
 .portafolio-contenido{
     display:flex;
     justify-content: space-evenly;  
-    margin: 10px;
-    margin-top: 200px;
-    font-size: 25px;
-    margin-right: 100px;
+    margin: 10em;
+    margin-top: 12.5em;
+    
+    margin-right: 6.25em;
 }
 
 .portafolio-contenido div{
     background-color: #ffff;
-    width: 30%;    
-    margin-right: 10px;
-    box-shadow: 0px 10px 10px #e5e5e5;
+    width: 100%;    
+    margin-right: 10em;
+    box-shadow: 0em 0.625em 0.625em #e5e5e5;
     
 }
 .portafolio-contenido h3{
-    margin: 10px;
-    margin-bottom: 60px;
+    margin: 0.625em;
+    margin-bottom: 3.75em;
 }
 
 
 .CONTACTO{
     display: block;
-    margin: 20px;
+    margin: 1.25em;
+    width: 90vmax;
 }
 .titulo-contacto{
-    width: 100%;
+    width: 90vmax;
     display: block;
-    font-size: 50px;
-    margin-left: 50px;
-    padding-top: 100px;
+    
+    margin-left: 3.125em;
+    padding-top: 6.25em;
 }
 
 .contenido-contacto{
     
     display:flex;
     justify-content: space-evenly;  
-    margin: 10px;
-    margin-top: 200px;
-    font-size: 25px; 
-    
-      
+    margin: 0.625em;
+    margin-top: 12.5em;
+     
 }
 .contenido-contacto img{
     width: 60%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     
     
 }
 .contenido-contacto div{
     background-color: #ffff;
     text-align: center;
-    margin: 20px;
+    margin: 1.25em;
     width: 20%;
-    box-shadow: 0px 10px 10px #e5e5e5;
+    box-shadow: 0em 0.625em 0.625em #e5e5e5;
+    
 }
 .pie-pagina{
-    margin: 100px;
+    margin: 6.25em;
     text-align: center;
+}
+
+@media screen and (max-width: 500px){
+    body{
+        font-size: 16px;
+    }
+    subsection{
+        font-size: 18px;
+
+    }
+    h2{
+        font-size: 32px;
+    }
+    h1{
+        font-size: 50px;
+        font: bold;
+    }
+
+    .portafolio-contenido{
+        display:contents;
+        justify-content: space-evenly;  
+        margin: 10em;
+        margin-top: 12.5em;
+        
+        margin-right: 6.25em;
+    }
+
 }

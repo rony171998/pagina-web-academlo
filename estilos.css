@@ -17,9 +17,12 @@ nav{
     position: fixed;
     background-color: #ffff;
     right: 50;
-    width: 100vmax;
-       
-     
+    width: 100vmax; 
+    font-size: 1vmax;  
+    
+}
+.menu{
+    display: none;
 }
 
 nav > a{
@@ -32,32 +35,30 @@ nav > a{
     padding: 1.25em;  
     
 }
-
-nav > a:hover{
-    
+nav > a:hover{    
     color: #34b0be;
 }
+
 h1 {
-    font-size: 150px;
+    font-size: 7vmax;
     color: #ff4f6f;
     padding: 0.75rem;
     font: bold;
      
 }
 h2{
-    font-size: 50px;
+    font-size: 3vmax;
     font: bold;
 }
-.malla{
+.malla {
     display: flex;
-    width: 10%;  
-    margin-left: 6.25em;
-    margin-bottom: 6.25em;  
+    width: 10%;
+    margin-left: 100px;
+    position: relative;
     
 }
 .containerhome{
     width: 90vmax;
-    height: 50vmax;
     margin: 0.625em;
     display: block;
     
@@ -67,28 +68,30 @@ h2{
     display: block;
     float: right;
     
-    width: 42vw;
+    width: 42vmax;
     height: 50vmax;
     text-align: left;
     
 }
 .HOME h2{
-    font-size: 150px;
+    font-size: 7vmax;
+}
+.HOME h1{
+    font-size: 5vmax;
 }
 .redes{
-    
     border-bottom-style: solid ;
     border-color: #e5e5e5 ;
     width: 90%;
-    margin-bottom: 3.75em;
+    margin-bottom: 4rem;
+    padding: 1.875rem;
     
 }
 .redes img{
     border-width: 1px;
     border-style: solid;
-
     color: #34b0be;
-    width: 8%;
+    width: 9%;
     border-radius: 3.125em;
     margin-right: 5%;
     margin-top: 1.25em;
@@ -98,31 +101,37 @@ h2{
 .foto{
     
     width: 48vmax;
+    height: 48vmax;
     padding-right: 1.5625em; 
+    top: 7.5vmax;
 }
 .mifoto{
     position: absolute;
     left: 5vmax; 
-    top: 12.5vmax;
+    top: 7.5vmax;
     width: 45vmax;
     height: 50vmax;      
 }
 
 .contactame{
+    display: flex;
     background-color: #ff4f6f;
-    width: 55%;
+    width: 22vmax;
+    padding: 1.875rem;
     text-align: center;
     border-top-right-radius: 3.125em;
     border-bottom-right-radius: 3.125em;
     margin-top: 1.25em;
-    margin-bottom: 6.25em;
+    margin-bottom: 5.25em;
     
 }
 .contactame h5{
     
-    display: contents;
     text-align: center;
     color: aliceblue;
+    font-size: 2.5vmax;
+    margin-left: 1.875rem;
+
     
 }
 .SERVICIOS{
@@ -135,7 +144,7 @@ h2{
     
     display: flex;
     margin-left: 3.125em;
-    padding-top: 6.25em;
+    padding-top: 5.25em;
     
 }
 
@@ -164,17 +173,19 @@ h2{
 }
 .flechaizquierda {
     background-color: #e5e5e5;
-    width: 6.875em;
+    width: 7vmax;
     border-radius: 100%;
     margin-left: 9.375em;
-    background-image: ;
+    margin-top: 2em;
+
 }
 
 .flechaderecha {
     background-color: #e5e5e5;
-    width: 6.875em;
+    width: 7vmax;
     border-radius: 100%;
     margin-left: 3.125em;
+    margin-top: 2em;
 }
 .flechaizquierda:hover{
     background-color: #ff4f6f;
@@ -384,7 +395,6 @@ h2{
     }
     subsection{
         font-size: 18px;
-
     }
     h2{
         font-size: 32px;
@@ -401,6 +411,17 @@ h2{
         margin-top: 12.5em;
         
         margin-right: 6.25em;
+    }
+    nav{
+        display: block;
+    }
+    .menu{
+        display: block;
+        background-color: #34b0be;
+        float: right;
+    }
+    .menu :hover{
+        background-color: #ff4f6f;
     }
 
 }

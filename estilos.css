@@ -468,12 +468,19 @@ h2{
     }
     .contactame{
         margin-left: 5px;
+        color: #ffff;
+        text-decoration: none;
+        width: 90%;
     }
     .HOME h2{
         font-size: 70px;
     }
     div.redes{
-        width: 250px;
+        width: 90%;
+    }
+    .redes img{
+        padding: 0;
+        margin-right: 10px;
     }
     .foto{
         width: 290px;
@@ -488,7 +495,7 @@ h2{
         height: 300px;
         float: right;
         left: 30px;
-        margin-top: 60px;
+        margin-top: 50px;
     }
     .SERVICIOS{
         width: 95%;
@@ -567,7 +574,7 @@ h2{
     }
     
     .MI_PORTAFOLIO div{
-        width: 95%;
+        width: 100%;
     }
     .portafolio-contenido{
         display:contents;

@@ -466,6 +466,9 @@ h2{
         float: left;
    
     }
+    .contactame{
+        margin-left: 5px;
+    }
     .HOME h2{
         font-size: 70px;
     }
@@ -485,16 +488,20 @@ h2{
         height: 300px;
         float: right;
         left: 30px;
-        margin-top: 70px;
+        margin-top: 60px;
     }
     .SERVICIOS{
         width: 300px;
         display: block;
         margin: 0;
     }
-    .titulo_servicios{
-        margin-left: 5px;
-        width: 250px;
+    .titulo_servicios h1{
+        margin-left: 0;
+        width: 300px;
+        
+    }
+    .servicios-contenido{
+        width: 95%;
     }
     .ACERCA_DE_MI{
         display: block;
@@ -507,6 +514,11 @@ h2{
         flex-direction: column;
         width: 250px;
     }
+    .ACERCA_DE_MI .contenido div{
+        width: 95%;
+        align-items: center;
+    }
+    
     .ACERCA_DE_MI div div{
         width: 250px;
     }
@@ -535,6 +547,10 @@ h2{
         margin: 0;
 
     }
+    div.contenido-linea{
+        width: 290px;
+        font-size: 10px;
+    }
     
     .MI_PORTAFOLIO{
         display: block;
@@ -546,14 +562,20 @@ h2{
         width: 200px;
         margin-left: 0;
         font-size: 10px;
+        margin-bottom: 10px;
     }
     
     .MI_PORTAFOLIO div{
-        width: 250px;
+        width: 95%;
     }
     .portafolio-contenido{
         display:contents;
-        justify-content: space-evenly;   
+        justify-content: space-evenly;
+          
+    }
+    .portafolio-contenido .img-portafolio{
+        margin-left: 5px;
+        margin-top: 10px; 
     }
     .CONTACTO{
         width: 300px;

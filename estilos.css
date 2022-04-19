@@ -354,7 +354,7 @@ h2{
     width: 90vmax;
     display: block;
     
-    margin-left: 3.125em;
+    margin-left: 3.125rem;
     padding-top: 6.25em;
 }
 
@@ -399,7 +399,10 @@ h2{
     }
     h1{
         font-size: 50px;
+        width: 250px;
         font: bold;
+        margin-left: 5px;
+        padding: 0;
     }
 
     nav{
@@ -449,50 +452,52 @@ h2{
     }
 
     .containerhome{
-        width: 400px;
+        width: 300px;
         height: 90vh;
         display: block;
         
     }
     .HOME{
-        width: 400px;
+        width: 300px;
         display: block;
-        float: left;     
+        float: left;
+   
     }
     .foto{
-        width: 450px;
+        width: 300px;
         height: 300px;
         float: right;
     }
     .mifoto {
         position: absolute;
-        width: 320px;
-        height: 370px;
+        width: 300px;
+        height: 300px;
         float: right;
+        margin-top: 50px;
     }
     .SERVICIOS{
-        width: 400px;
+        width: 300px;
         display: block;
         
     }
     .ACERCA_DE_MI{
         display: block;
-        width: 400px;
+        width: 300px;
         
     }
     .ACERCA_DE_MI div{
         display: flex;
         
         flex-direction: column;
-        width: 350px;
+        width: 250px;
     }
     .ACERCA_DE_MI div div{
-        width: 350px;
+        width: 250px;
     }
-    div.titulo_acerca_de_mi{width: 350px;}
+    div.titulo_acerca_de_mi{width: 250px;}
     .MIS_HABILIDADES{
         display: block;
-        width: 400px;
+        width: 300px;
         
     }
     div.cuadro{
@@ -500,23 +505,23 @@ h2{
         width: 300px;
     }
     div.titulo-habilidades{
-        width: 350px;
+        width: 250px;
     }
     
     .MI_PORTAFOLIO{
         display: block;
-        width: 400px;
+        width: 300px;
         
     }
     .MI_PORTAFOLIO div{
-        width: 350px;
+        width: 250px;
     }
     .portafolio-contenido{
         display:contents;
         justify-content: space-evenly;   
     }
     .CONTACTO{
-        width: 400px;
+        width: 300px;
         display: block;
         
     }
@@ -524,7 +529,7 @@ h2{
         display: block;
     }
     div.titulo-contacto{
-        width: 350px;
+        margin-left: 2px;
     }
     
 }

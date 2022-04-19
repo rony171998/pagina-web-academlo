@@ -461,7 +461,7 @@ h2{
         
     }
     .HOME{
-        width: 250px;
+        width:95%;
         display: block;
         float: left;
    
@@ -491,13 +491,14 @@ h2{
         margin-top: 60px;
     }
     .SERVICIOS{
-        width: 300px;
+        width: 95%;
         display: block;
         margin: 0;
     }
-    .titulo_servicios h1{
-        margin-left: 0;
-        width: 300px;
+    .titulo_servicios {
+        margin-left: 5px;
+        width: 95%;
+        
         
     }
     .servicios-contenido{
@@ -505,7 +506,7 @@ h2{
     }
     .ACERCA_DE_MI{
         display: block;
-        width: 300px;
+        width: 95%;
         
     }
     .ACERCA_DE_MI div{
@@ -554,7 +555,7 @@ h2{
     
     .MI_PORTAFOLIO{
         display: block;
-        width: 300px;
+        width: 95%;
         padding: 0;
         
     }
@@ -578,7 +579,7 @@ h2{
         margin-top: 10px; 
     }
     .CONTACTO{
-        width: 300px;
+        width: 95%;
         display: block;
         margin: 0;
         

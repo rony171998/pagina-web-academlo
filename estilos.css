@@ -22,7 +22,7 @@ nav{
     
 }
 .menu{
-    display: none;
+    visibility: hidden;
 }
 
 nav > a{
@@ -55,7 +55,7 @@ h2{
     width: 18vmax;
     margin-left: 100px;
     padding: 25px;
-    position: relative;
+    
     
 }
 .containerhome{
@@ -376,6 +376,8 @@ h2{
     background-color: #ffff;
     text-align: center;
     margin: 1.25em;
+   
+   
     width: 20%;
     box-shadow: 0em 0.625em 0.625em #e5e5e5;
     
@@ -400,42 +402,44 @@ h2{
         font: bold;
     }
 
-    .portafolio-contenido{
-        display:contents;
-        justify-content: space-evenly;  
-        margin: 10em;
-        margin-top: 12.5em;
-        
-        margin-right: 6.25em;
-    }
-    nav a{
-        display: none;
-    }
-    .menu{
-        display: block;
-        position: fixed;
-        top: 20px;
-        right: 80px;
-        padding: 10px;
-        width: 10vmax;
-    }
-    .menu:hover{
-        background-color: #34b0be;
-        
-    }
-    .menu:hover,nav a{
-        display: block;
-    }
-    nav:hover{
+    nav{
+        visibility: hidden;
         display: flex;
         position: fixed;
         flex-direction: column;
-        top: 90px;
-        right: 0;
         text-align: center;
-        width:63vh;
-        font-size: 10px;
+        width: 300px;
+        font-size: 16px;
+        margin-left: 40px;
+        padding: 10px;
+        
     }
+    nav > a{
+        background-color: #34b0be;
+        color: #ff4f6f;
+    }
+    nav > nav:active{
+        background-color: bisque;
+        visibility: hidden;
+    }
+    .menu{
+        visibility: visible;
+        position: fixed;
+        display: block;
+        left: 10px;
+        right: 10px;
+
+    }
+    
+    .mifoto:active{
+        visibility: hidden;
+    }
+    nav:hover{
+        visibility: visible;
+        
+    }
+    
+    
     .servicios-contenido{
         display:flex;
         flex-direction: column;
@@ -444,5 +448,83 @@ h2{
          
     }
 
-
+    .containerhome{
+        width: 400px;
+        height: 90vh;
+        display: block;
+        
+    }
+    .HOME{
+        width: 400px;
+        display: block;
+        float: left;     
+    }
+    .foto{
+        width: 450px;
+        height: 300px;
+        float: right;
+    }
+    .mifoto {
+        position: absolute;
+        width: 320px;
+        height: 370px;
+        float: right;
+    }
+    .SERVICIOS{
+        width: 400px;
+        display: block;
+        
+    }
+    .ACERCA_DE_MI{
+        display: block;
+        width: 400px;
+        
+    }
+    .ACERCA_DE_MI div{
+        display: flex;
+        
+        flex-direction: column;
+        width: 350px;
+    }
+    .ACERCA_DE_MI div div{
+        width: 350px;
+    }
+    div.titulo_acerca_de_mi{width: 350px;}
+    .MIS_HABILIDADES{
+        display: block;
+        width: 400px;
+        
+    }
+    div.cuadro{
+        display: block;
+        width: 300px;
+    }
+    div.titulo-habilidades{
+        width: 350px;
+    }
+    
+    .MI_PORTAFOLIO{
+        display: block;
+        width: 400px;
+        
+    }
+    .MI_PORTAFOLIO div{
+        width: 350px;
+    }
+    .portafolio-contenido{
+        display:contents;
+        justify-content: space-evenly;   
+    }
+    .CONTACTO{
+        width: 400px;
+        display: block;
+        
+    }
+    .CONTACTO div{
+        display: block;
+    }
+    div.titulo-contacto{
+        width: 350px;
+    }
+    
 }

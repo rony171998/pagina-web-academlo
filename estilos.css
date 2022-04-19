@@ -390,6 +390,8 @@ h2{
 @media screen and (max-width: 500px){
     body{
         font-size: 16px;
+        padding: 0;
+        margin: 0;
     }
     subsection{
         font-size: 18px;
@@ -398,7 +400,7 @@ h2{
         font-size: 32px;
     }
     h1{
-        font-size: 50px;
+        font-size: 40px;
         width: 250px;
         font: bold;
         margin-left: 5px;
@@ -455,6 +457,7 @@ h2{
         width: 300px;
         height: 90vh;
         display: block;
+        margin: 0;
         
     }
     .HOME{
@@ -470,7 +473,7 @@ h2{
         width: 250px;
     }
     .foto{
-        width: 300px;
+        width: 290px;
         height: 300px;
         float: right;
         margin-left: 5px;
@@ -487,7 +490,7 @@ h2{
     .SERVICIOS{
         width: 300px;
         display: block;
-        
+        margin: 0;
     }
     .titulo_servicios{
         margin-left: 5px;
@@ -507,10 +510,14 @@ h2{
     .ACERCA_DE_MI div div{
         width: 250px;
     }
-    div.titulo_acerca_de_mi{width: 250px;}
+    div.titulo_acerca_de_mi{
+        width: 250px;
+        padding: 0;
+        margin-left: 0;
+    }
     .MIS_HABILIDADES{
         display: block;
-        width: 300px;
+        width: 250px;
         margin-left: 5px;
         
     }
@@ -519,20 +526,28 @@ h2{
         width: 300px;
         margin-left: 5px;
     }
-    div.titulo-habilidades{
+    .titulo-habilidades{
         width: 250px;
-        margin-left: 5px;
+        margin-left: 0;
+        font-size: 30px;
+    }
+    div.contenido-habilidades{
+        margin: 0;
+
     }
     
     .MI_PORTAFOLIO{
         display: block;
         width: 300px;
+        padding: 0;
         
     }
     .titulo-portafolio{
-        margin-left: 5px;
-        width: 250px;
+        width: 200px;
+        margin-left: 0;
+        font-size: 10px;
     }
+    
     .MI_PORTAFOLIO div{
         width: 250px;
     }
@@ -543,7 +558,11 @@ h2{
     .CONTACTO{
         width: 300px;
         display: block;
+        margin: 0;
         
+    }
+    .contenido-contacto{
+        margin-top: 50px;
     }
     .CONTACTO div{
         display: block;
@@ -551,6 +570,10 @@ h2{
     div.titulo-contacto{
         margin-left: 2px;
         width: 250px;
+    }
+    .pie-pagina{
+        width: 200px;
+        
     }
     
 }

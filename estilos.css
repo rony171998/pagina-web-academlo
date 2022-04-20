@@ -58,6 +58,10 @@ h2{
     
     
 }
+.malla:hover{
+    visibility: hidden;
+    transition: 1000ms;
+}
 .containerhome{
     width: 95vmax;
     margin: 0.625em;
@@ -115,6 +119,10 @@ h2{
     top: 10vmax;
     width: 48vmax;
     height: 54vmax;      
+}
+.mifoto:hover{
+    visibility: hidden;
+    transition: 1000ms;
 }
 
 .contactame{
@@ -240,6 +248,15 @@ h2{
     margin-top: 3.125em;
     
 }
+.ACERCA_DE_MI .contenido img:hover{
+    visibility: hidden;
+    transition: 1000ms;
+    
+}
+.malla2:hover{
+    visibility: hidden;
+    transition: 1000ms;
+}
 .ACERCA_DE_MI .contenido div{
     background-color: #ffff;
     margin: 0.625em;
@@ -308,7 +325,7 @@ h2{
     display: block;
     background-color: #ffff;
     padding-bottom: 1.875em;
-    width: 90vmax;
+    width: 98vmax;
     
 }
 .titulo-portafolio{
@@ -322,6 +339,23 @@ h2{
     text-align: center;
     width: 100%;
     
+}
+#img-portafolio2:hover,#img-portafolio3:hover{
+    width: 60%;
+    position: absolute;
+    transition-duration:2s;  
+}
+#img-portafolio1:hover{
+    width: 60%;
+    position: absolute;
+    transition-duration:2s;
+    left: 10px; 
+}
+#img-portafolio4:hover{
+    width: 60%;
+    position: absolute;
+    transition-duration:2s; 
+    right: 10px; 
 }
 .portafolio-contenido{
     display:flex;
@@ -386,14 +420,14 @@ h2{
     margin: 6.25em;
     text-align: center;
 }
-
+/*---------------------------version Movil--------------------------------------------*/
 @media screen and (max-width: 500px){
     body{
         font-size: 16px;
         padding: 0;
         margin: 0;
     }
-    subsection{
+    section{
         font-size: 18px;
     }
     h2{
@@ -418,10 +452,6 @@ h2{
         margin-left: 40px;
         padding: 10px;
         
-    }
-    nav > a{
-        background-color: #34b0be;
-        color: #ff4f6f;
     }
     nav > nav:active{
         background-color: bisque;
@@ -604,6 +634,12 @@ h2{
     .pie-pagina{
         width: 200px;
         
+    }
+
+    #img-portafolio2:active,#img-portafolio3:active{
+        width: 60%;
+        position: relative;
+        transition-duration:2s;  
     }
     
 }

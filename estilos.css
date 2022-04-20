@@ -422,7 +422,7 @@ h2{
     text-align: center;
 }
 /*---------------------------version Movil--------------------------------------------*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 320px){
     body{
         font-size: 16px;
         padding: 0;

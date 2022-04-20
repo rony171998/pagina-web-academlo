@@ -605,11 +605,12 @@ h2{
     }
     .mifoto {
         position: absolute;
-        width: 85%;
+        width: 90%;
         height: 360px;
         float: left;
-        left: 55px;
+        left: 15px;
         margin-top: 30px;
+        padding: 0;
         
     }
     .SERVICIOS{

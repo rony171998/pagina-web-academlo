@@ -14,7 +14,7 @@ nav{
     padding: 1.875em 3.125em 0.625em 0;
     box-shadow: 0em 0.625em 0.625em #e5e5e5;
     display: block;
-    position: absolute;
+    position: fixed;
     background-color: #ffff;
     right: 50;
     width: 100vmax; 
@@ -341,18 +341,18 @@ h2{
     width: 100%;
     
 }
-#img-portafolio2:hover,#img-portafolio3:hover{
+#img-portafolio2:hover,#img-portafolio3:hover,#img-portafolio6:hover{
     width: 60%;
     position: absolute;
     transition-duration:2s;  
 }
-#img-portafolio1:hover{
+#img-portafolio1:hover,#img-portafolio5:hover{
     width: 60%;
     position: absolute;
     transition-duration:2s;
     left: 10px; 
 }
-#img-portafolio4:hover{
+#img-portafolio4:hover,#img-portafolio7:hover{
     width: 60%;
     position: absolute;
     transition-duration:2s; 

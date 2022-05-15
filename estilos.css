@@ -338,26 +338,26 @@ h2{
 }
 .MI_PORTAFOLIO img{
     text-align: center;
-    width: 100%;
-    
+    width: 100%; 
 }
-#img-portafolio2:hover,#img-portafolio3:hover,#img-portafolio6:hover{
-    width: 60%;
+
+/* #img-portafolio2:hover,#img-portafolio3:hover,#img-portafolio6:hover{
+    width: 70%;
     position: absolute;
     transition-duration:2s;  
 }
 #img-portafolio1:hover,#img-portafolio5:hover{
-    width: 60%;
+    width: 70%;
     position: absolute;
     transition-duration:2s;
     left: 10px; 
 }
 #img-portafolio4:hover,#img-portafolio7:hover{
-    width: 60%;
+    width: 100%;
     position: absolute;
     transition-duration:2s; 
     right: 10px; 
-}
+} */
 .portafolio-contenido{
     display:flex;
     justify-content: space-evenly;  
@@ -377,6 +377,7 @@ h2{
 .portafolio-contenido h2{
     padding: 20px;
     font-size: 1.5vmax;
+    
 }
 
 

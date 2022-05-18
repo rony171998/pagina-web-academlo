@@ -338,7 +338,8 @@ h2{
 }
 .MI_PORTAFOLIO img{
     text-align: center;
-    width: 100%; 
+    width: 100%;
+    height: 80%; 
 }
 
 /* #img-portafolio2:hover,#img-portafolio3:hover,#img-portafolio6:hover{

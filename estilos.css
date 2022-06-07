@@ -382,60 +382,72 @@ h2{
 }
 
 
-.CONTACTO{
-    display: block;
-    margin: 1.25em;
-    width: 90vmax;
-}
-.titulo-contacto{
-    width: 90vmax;
-    display: block;
-    
-    margin-left: 3.125rem;
-    padding-top: 6.25em;
-}
-
-.contenido-contacto{
-    
-    display:flex;
-    justify-content: space-evenly;  
-    margin: 0.625em;
-    margin-top: 12.5em;
-     
-}
-.contenido-contacto img{
-    width: 60%;
-    margin-bottom: 1.25em;
-    
-    
-}
-.contenido-contacto div{
-    background-color: #ffff;
+footer{
+    background-color: #05292E;
+    margin-top: 200px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
-    margin: 1.25em;
-   
-   
+    color:  white; 
+    border-radius: 20px;
+    padding-top: 20px;
+    
+}
+.Pie-pagina{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+    
+}
+.Pie-pagina-center{
+    
+    margin-left: 100px;
+    text-align: left;
+}
+.Pie-pagina div h4{
+    margin: 20px;
+    margin-left: 0;
+    text-align: left;
+    font-style: normal;
+    color: gray;
+}
+.Pie-pagina-last img{
+    
+    width: 50%;
+    margin-left: 8px;
+    margin-top: 12px;
+    flex-direction: row;
+}
+.Pie-pagina-firts{
     width: 20%;
-    box-shadow: 0em 0.625em 0.625em #e5e5e5;
-    
+    margin-left: 100px;
+    text-align: left;
 }
-
+.Pie-pagina-last{
+    width: 10%;
+    margin-left: 100px;
+    margin-right: 10px;
+    text-align: left;
+}
 .curriculum{
-    width: 90%;
-    display: block;
-    margin: 0;
-    margin-top: 50px;
+    width: 20%;
+}
+
+.Derechos-reservados{
+    text-decoration-color: #e5e5e5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: grey;
     
-}
-
-.curriculum img{
-    width: 6%;
-    margin-left: 300px;
-}
-
-.pie-pagina{
-    margin: 6.25em;
-    text-align: center;
 }
 /*---------------------------version Movil--------------------------------------------*/
 @media screen and (max-width: 500px){
